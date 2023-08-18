@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href ="style.css">
+</head>
+<body>
+    <h1>Welcome to the Temperature Converter Hub!</h1>
+    <div class="container">
+        <div id="celsius" class="section">
+         <label id="mylabel">Celsius(°C)</label><br>
+          <input type="text" id="temp1" placeholder="°C"><br>
+            <button type="radio" id="far1">Fahrenheit</button><br>
+             <button type="radio" id="kel1">Kelvin</button><br>
+              <input type="text" id="celres" readonly>
+        </div>
+        <div id="fahrenheit" class="section">
+            <label id="mylabel">Fahrenheit(°F)</label><br>
+             <input type="text" id="temp2" placeholder="°F"><br>
+          <button type="radio" id="cel2">Celsius</button><br>
+           <button type="radio" id="kel2">Kelvin</button><br>
+            <input type="text" id="fahres" readonly>
+        </div>
+        <div id="kelvin" class="section">
+            <label id="mylabel">Kelvin(K)</label><br>
+             <input type="text" id="temp3" placeholder="K"><br>
+          <button type="radio" id="far3">Fahrenheit</button><br>
+           <button type="radio" id="cel3">Celsius</button><br>
+            <input type="text" id="kelres" readonly>
+        </div>
+    </div>    
+
+    <p>&copy; Temperature Converter</p>
+
+<script src="script.js"></script>
+</body>
+</html> 
